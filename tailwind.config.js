@@ -1,8 +1,10 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["C:\Users\tgood\Documents\GitHub\Defi-Lending-Borrowing\styles\globals.css.{html,js}"],
+  content: [
+    './pages/**/*.{js,ts,jsx,tsx}',  // Add all relevant paths
+    './components/**/*.{js,ts,jsx,tsx}',
+  ],
   theme: {
     extend: {},
   },
   plugins: [],
-}
+};
